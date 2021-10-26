@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/********************** GLOBAL  ****************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+}
+
+a:hover {
+  color: #dc6a00;
+  cursor: pointer;
+}
+a:visited {
+  color: white;
+}
+
+/******************** Home page **********************/
+.landingBackground {
+  height: 75vh;
+  position: relative;
+  background-size: cover;
+  background-image: url("/path_landing_page.jpeg");
+}
+
+.bg-landingGreenColor {
+  background-color: #053742;
+}
+.text-landingGreenColor {
+  color: #053742;
+}
+.text-centerCSS {
+  text-align: center;
+}
+.stickyCSS {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.title {
+  padding-top: 80px;
+}
+
+.head {
+  padding-top: 160px;
+}
+
+.index-image {
+  position: absolute;
+  right:300px;
+}
+/******************** Buddy Page ********************************/
+
+.buddyBackground {
+  background-color: #eeeeee;
+}
+.heart {
+  color: white;
+}
+
+.heart:hover {
+  color: red;
+}
+.cardWidth {
+  width: 76rem;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.buddyCard-mr {
+  float: left;
+}
+.span-fontSize{
+  font-size: 1px;
+}
+
+/***************** LANDING PAGE ********************************/
+
+.darkestColor {
+  background-color: #1b1b23;
+}
+.darkColor {
+  background-color: #28272f;
+}
+.grayColor {
+  background-color: #54545c;
+}
+.orange {
+  color: #dc6a00;
+}
+.bg-orange {
+  background-color: #dc6a00;
+}
+.facebook {
+  color: #43609c;
+}
+
+/***************** Sidebar ********************************/
+
+.sidebarHeight {
+  height: 92.5vh;
+}
+
+/* push content to the right of the sidebar */
+
+.main {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.backDrop {
+  background-color: rgb(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+/***************** Profile Page ********************************/
+
+.profile-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+/***************** Message Float ********************************/
+
+/* .message-float{
+  position: fixed;
+  bottom:0;
+} */
+
+.hamburger:hover {
+  background-color: #dc6a00;
+}
+
+/* Navbar */
+
+.profile-links:hover {
+  color: #dc6a00;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 3;
+}
+input[type="text"] {
+  font-size: 16px;
+  color: white;
+}
+
+/* Chat */
+
+.chatWidth {
+  width: 45rem;
+}
+
+
+/***************** Carousel Styles ********************************/
+
+.card {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.rec-carousel-item {
+  outline: none;
+  justify-content: center;
+  display: flex;
+}
+
+.carouselSlider {
+  position: relative;
+  /* padding-top: 35px; */
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImages {
+  align-items: center;
+}
+
+/* .rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled {
+    background-color: #dc6a00;
+    color: black;
+    box-shadow: 0 0 1px 3px var(--clr-primary-400);
+} */
+
+/* .rec.rec-arrow-left:active,
+.rec.rec-arrow-right:active {
+    background-color: #dc6a00;
+    color: black;
+    box-shadow: 0 0 1px 3px var(--clr-primary-400);
+} */
+
+.rec.rec-arrow {
+  color: #683cb4;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.rec-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+.rec-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  font-size: 3rem;
+  z-index: 10;
+}
+/*HERE -- can't change active button colors when clicked by arrow...*/
+button.rec-dot {
+  color: #dc6a00;
+  background-color: #1b1b23;
+  /* box-shadow: 0 0 1px 3px gray; */
+}
