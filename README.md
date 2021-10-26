@@ -1,4 +1,3 @@
-# Find a Coding Buddy
+# Sample Code
 
-This site is for new and seasoned developers alike.
-
+API keys and node modules were removed.
